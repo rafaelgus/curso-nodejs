@@ -13,7 +13,7 @@ let person = {
 function saveDni(dni)
 {
 	person.dni = dni
-	stdout.write('Tu número de DNI es: ' + person.dni + '.\n'
+	stdout.write('Tu número de DNI es: ' + person.dni + '.\n')
 	process.exit()
 }
 
