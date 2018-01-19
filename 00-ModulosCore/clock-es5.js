@@ -19,7 +19,7 @@ var Clock = (function (){
 	Clock.prototype.theTime = function ()
 	{
 		var date = new Date(),
-			hrsAmPm = ( date.getHours() > 12) ? (date.getHours() - 12) : date.getHours(),
+			hrsAmPm = ( date.getHours() >	 12) ? (date.getHours() - 12) : date.getHours(),
 			hrs = addZero( hrsAmPm ),
 			min = addZero( date.getMinutes() ),
 			sec = addZero( date.getSeconds() ),
