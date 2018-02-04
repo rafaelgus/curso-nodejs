@@ -1,0 +1,32 @@
+{
+  "name": "uploader",
+  "version": "0.0.1",
+  "description": "Aplicación para subir archivos con Node.js al servidor.",
+  "main": "uploader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node uploader.js",
+    "restart": "nodemon uploader.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjaminocampo/curso-nodejs.git"
+  },
+  "keywords": [
+    "upload",
+    "files",
+    "node.js",
+    "formidable",
+    "fs-extra"
+  ],
+  "author": "Benjamin Ocampo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benjaminocampo/curso-nodejs/issues"
+  },
+  "homepage": "https://github.com/benjaminocampo/curso-nodejs#readme",
+  "dependencies": {
+    "formidable": "^1.1.1",
+    "fs-extra": "^5.0.0"
+  }
+}
